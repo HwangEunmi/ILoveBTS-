@@ -69,6 +69,7 @@ public class BaseTwiterView extends RelativeLayout implements View.OnClickListen
      */
     private List<String> mList;
 
+
     public BaseTwiterView(final @NonNull Context context) {
         this(context, null);
     }
