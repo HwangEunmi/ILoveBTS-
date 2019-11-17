@@ -105,7 +105,6 @@ public class BaseTwiterView extends RelativeLayout implements View.OnClickListen
      * @param context : Context 객체
      */
     private void initView(final Context context) {
-        // TODO : CustomView binding 시키는법
         LayoutInflater.from(context).inflate(R.layout.view_twiter_base, this, true);
         // mBinding = ViewTwiterBaseBinding.inflate(in)
         mIvProfile = findViewById(R.id.iv_profile);
