@@ -1,0 +1,9 @@
+<resources>
+
+    <!--기본 스타일 (상태바 색깔, 기본 타이틀 제거-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor"></item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

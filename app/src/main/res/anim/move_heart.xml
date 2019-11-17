@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--부모 View의 50%만큼 아래로 이동-->
+    <translate
+        android:duration="500"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:toXDelta="0%p"
+        android:toYDelta="50%p" />
+
+    <!--부모 View의 50%만큼 우측으로 이동-->
+    <translate
+        android:duration="300"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:startOffset="200"
+        android:toXDelta="50%p"
+        android:toYDelta="0%p" />
+
+    <!--부모 View의 20%만큼 위로 이동-->
+    <translate
+        android:duration="300"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:startOffset="300"
+        android:toXDelta="0%p"
+        android:toYDelta="-20%p" />
+
+    <!--부모 View의 20%만큼 좌측으로 이동-->
+    <translate
+        android:duration="300"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:startOffset="400"
+        android:toXDelta="-20%p"
+        android:toYDelta="0%p" />
+
+    <!--부모 View의 80%만큼 밑으로 이동-->
+    <translate
+        android:duration="600"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:startOffset="700"
+        android:toXDelta="0%p"
+        android:toYDelta="50%p" />
+
+    <!--부모 View의 100%만큼 우측으로 이동-->
+    <translate
+        android:duration="300"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:startOffset="1000"
+        android:toXDelta="70%p"
+        android:toYDelta="0%p" />
+</set><!--애니메이션 URL : https://itmir.tistory.com/515-->

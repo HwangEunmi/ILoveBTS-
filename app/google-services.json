@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "391867377666",
+    "firebase_url": "https://ilovebts-c2ea4.firebaseio.com",
+    "project_id": "ilovebts-c2ea4",
+    "storage_bucket": "ilovebts-c2ea4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391867377666:android:b43cee19cc92c836",
+        "android_client_info": {
+          "package_name": "com.love.bts.ilovebts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391867377666-f4060l6k918n9096g79vf5j6gbacjf7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.love.bts.ilovebts",
+            "certificate_hash": "357da7b02b90160b180a4f3d9006a7334ed20fc1"
+          }
+        },
+        {
+          "client_id": "391867377666-39rgkh6vje4c0edutfjlrmfeb4lcptmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuGnvaHdYUlMa2PrsQshQl3LjLglGyEPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391867377666-39rgkh6vje4c0edutfjlrmfeb4lcptmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

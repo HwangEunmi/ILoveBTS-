@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.activity.IntroActivity">
+
+    <data>
+
+        <variable
+            name="intro"
+            type="com.love.bts.ilovebts.view.activity.IntroActivity" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/album_map_of_the_persona" />
+
+        <ImageView
+            android:id="@+id/iv_anim_heart"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/icon_purple_heart" />
+
+    </FrameLayout>
+
+</layout>

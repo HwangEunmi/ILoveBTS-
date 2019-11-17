@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background"
+        android:left="@dimen/margin_1dp"
+        android:right="@dimen/margin_1dp">
+        <shape>
+            <size android:height="@dimen/margin_1dp" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item
+        android:id="@android:id/progress"
+        android:left="@dimen/margin_1dp"
+        android:right="@dimen/margin_1dp">
+        <scale android:scaleWidth="100%">
+            <shape>
+                <size android:height="@dimen/margin_1dp" />
+                <solid android:color="@color/progress_bar_color" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

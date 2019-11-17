@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ILoveBTS</string>
+
+    <!--Twitter 관련-->
+    <string name="api_key">GxB2D5A4x3VgMc9wbbJJoEEam</string>
+    <string name="api_secret_key">D098xzQjL132OHghKNEkO5DYD5V9GjoDgZZPxy1Z9i2EXIlE5w</string>
+    <string name="success_login_twitter">트위터 로그인에 성공하였습니다.</string>
+    <string name="fail_login_twitter">트위터 로그인에 실패하였습니다. 잠시후에 다시 시도하여 주십시오.</string>
+    <string name="input_search_word">검색어를 입력하세요.</string>
+
+    <string name="button_description_play">버튼_시작</string>
+    <string name="button_description_pause">버튼_일시정지</string>
+    <string name="button_description_replay">버튼_리플레이</string>
+
+</resources>

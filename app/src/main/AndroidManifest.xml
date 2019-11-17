@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.love.bts.ilovebts">
+    <!-- 화면 어두워지는것 방지 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".BTSApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_purple_heart"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_purple_heart"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.activity.TwitterImageActivity"></activity>
+        <!-- 인트로 화면 -->
+        <activity android:name=".view.activity.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.activity.BaseActivity">
+
+            <!-- 검색 기능 구현을 위해 해당 meta-data 추가 -->
+            <meta-data
+                android:name="searchable"
+                android:resource="@xml/searchable" />
+        </activity> <!-- 메인 화면 -->
+        <activity android:name=".view.activity.GroundActivity" />
+        <activity android:name=".view.activity.TwitterVideoActivity" />
+    </application>
+
+</manifest>

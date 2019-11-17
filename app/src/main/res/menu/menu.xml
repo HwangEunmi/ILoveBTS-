@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--검색 버튼-->
+    <item
+        android:id="@+id/btn_search"
+        android:icon="@drawable/search_icon"
+        android:title="search_btn"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <!--Twitter 로그인 버튼-->
+    <item
+        android:id="@+id/login_twitter"
+        android:icon="@drawable/login_twitter"
+        android:title="twitter_login"
+        app:showAsAction="always" />
+
+</menu>

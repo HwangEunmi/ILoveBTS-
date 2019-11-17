@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--프로필 사진-->
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:mipmap/sym_def_app_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/seek_bar_thumb"
+            android:paddingEnd="@dimen/seek_bar_thumb">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/progress_bar_height">
+
+                <!--유저명-->
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/progress_bar_height"
+                    android:drawableEnd="@drawable/iv_check"
+                    android:text="방탄소년단"
+                    android:textColor="@color/base_text_color"
+                    android:textStyle="bold" />
+
+                <!--유저ID-->
+                <TextView
+                    android:id="@+id/tv_user_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_7dp"
+                    android:text="BTS_twt"
+                    android:textColor="@color/base_text_color" />
+
+                <!--올린날짜-->
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9시간"
+                    android:textColor="@color/base_text_color" />
+
+            </LinearLayout>
+
+            <!--트윗내용-->
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/progress_bar_height"
+                android:text="VTS is Vocal Taebak Sonyeondan" />
+
+            <!--사진-->
+            <com.love.bts.ilovebts.view.custom.BaseImageLayout
+                android:id="@+id/b_image_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/video_view_height" />
+
+            <!--비디오-->
+            <!--<com.love.bts.ilovebts.view.custom.BaseVideoLayout-->
+            <!--android:id="@+id/b_video_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/video_view_height" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
