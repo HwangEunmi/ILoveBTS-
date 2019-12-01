@@ -20,7 +20,7 @@ import android.widget.TextView;
 /**
  * 전체뷰
  */
-public class BaseTwiterView extends RelativeLayout implements View.OnClickListener {
+public class BaseTwiterView extends RelativeLayout implements  View.OnClickListener {
 
     private ViewTwiterBaseBinding mBinding;
 
@@ -69,7 +69,6 @@ public class BaseTwiterView extends RelativeLayout implements View.OnClickListen
      */
     private List<String> mList;
 
-
     public BaseTwiterView(final @NonNull Context context) {
         this(context, null);
     }
@@ -81,6 +80,18 @@ public class BaseTwiterView extends RelativeLayout implements View.OnClickListen
     public BaseTwiterView(final @NonNull Context context, final @Nullable AttributeSet attrs, final int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initView(context);
+    }
+
+    // TODO : View가 attach 될 때 호출되는지 확인하기
+    @Override
+    protected void onAttachedToWindow() {
+        super.onAttachedToWindow();
+    }
+
+    // TODO : View가 detatch 될 때 호출되는지 확인하기
+    @Override
+    protected void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
     }
 
     @Override
@@ -140,7 +151,7 @@ public class BaseTwiterView extends RelativeLayout implements View.OnClickListen
 
     /**
      * Click Listener 셋팅하기
-     * 
+     *
      * @param listener : Click Listener
      */
     public void setOnItemClickListener(final ITimeLineClickListener listener) {

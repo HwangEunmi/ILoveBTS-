@@ -254,7 +254,6 @@ public class BaseImageLayout extends LinearLayout {
      * @param view : 이미지뷰
      * @param url : 이미지 URL
      */
-    // TODO : 더빠른 로딩은 Picasso cache랑 관련 있는건가 ?
     private void setImageView(final Context context, final ImageView view, String url) {
         // url = "http://pbs.twimg.com/ext_tw_video_thumb/1134534440322052097/pu/img/H4CY2xZgTjUe1Qmr.jpg";
         final Picasso picasso = Picasso.with(context);
